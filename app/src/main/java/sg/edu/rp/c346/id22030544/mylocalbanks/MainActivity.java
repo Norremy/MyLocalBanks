@@ -72,8 +72,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intentCall);
             }
         }
-        if(groupId == 1){
-            if(itemId == 1){
+        else if(groupId == 1){
+            if(itemId == 0){
                 Intent intent = new Intent(Intent. ACTION_VIEW, Uri.parse("http://www.ocbc.com"));
                 startActivity(intent);
 
@@ -84,8 +84,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intentCall);
             }
         }
-        if(groupId == 2){
-            if(itemId == 2){
+        else if(groupId == 2){
+            if(itemId == 0){
                 Intent intent = new Intent(Intent. ACTION_VIEW, Uri.parse("http://www.uob.com"));
                 startActivity(intent);
 
